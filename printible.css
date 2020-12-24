@@ -1,0 +1,121 @@
+     
+      #urunilkresim {
+    width: 64%;
+}
+      #urunikinciresim {
+    width: 64%;
+}
+#urunresim{
+  width:60%;
+}
+
+img#iconozellik {
+    width: 100px;
+    padding-right: 5px;
+}
+img#sketch {
+    width: 90%;
+    margin-top: 65px;
+}
+    *{
+        font-family: 'Montserrat', sans-serif;
+    }
+    .table{
+      text-align: left;
+    }
+    /* header css*/
+
+     #headlogo{
+       width:100%;
+     }
+    #head1{
+      width:80%;
+    }
+
+    #head2{
+        position: absolute;
+        left: 60%;
+         width:7%;
+    }
+    #sayfa {
+        padding-top: 3cm;
+    }
+    .flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex-container > div {
+
+  line-height: 20px;
+}
+
+
+    /* header css*/
+    
+    div#ozellik1 {
+    width: 50%;
+}
+    div#ozellik2 {
+    width: 50%;
+}
+
+
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #FAFAFA;
+    
+    }
+    * {
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    }
+    .page {
+        width: 21cm;
+        min-height: 29.7cm;
+        
+        margin: 1cm auto;
+        border: 1px #D3D3D3 solid;
+        border-radius: 5px;
+        background: white;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        padding: 1.5cm;
+    }
+    .subpage {
+       padding-top:0.5cm;
+        padding: 1cm;
+        height: 256mm;
+        outline: 2cm white   solid;
+    }
+    
+    @page {
+        size: A4;
+        margin: 0;
+    }
+    @media print {
+      #hidden{
+        display:none;
+      }
+      #head2 {
+        position: absolute;
+        left: 79%;
+        width: 15%;
+    }
+
+        .page {
+            margin: 0;
+            border: initial;
+            border-radius: initial;
+            width: initial;
+            min-height: initial;
+            box-shadow: initial;
+            background: initial;
+            page-break-after: always;
+      
+        }
+    }
+    ul.a {
+  list-style-type: circle;
+  
+}
